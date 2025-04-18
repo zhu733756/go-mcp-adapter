@@ -17,7 +17,7 @@ The OpenAPI to MCP Adapter is a robust tool designed to swiftly transform server
 ### Initializing the Adapter
 
 ```go
-adapter, err := openapimcp.NewOpenAPIToMCPAdapter("MyService", "v1", "http://backend:8080", ":9090")
+adapter, err := gmadapter.NewOpenAPIToMCPAdapter("MyService", "v1", "http://backend:8080", ":9090")
 if err != nil {
     log.Fatal(err)
 }

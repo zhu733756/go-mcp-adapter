@@ -15,7 +15,7 @@ OpenAPI to MCP Adapter 是一个强大的工具，能够将符合 OpenAPI 规范
 ### 初始化适配器
 
 ```go
-adapter, err := openapimcp.NewOpenAPIToMCPAdapter("MyService", "v1", "http://backend:8080", ":9090")
+adapter, err := gmadapter.NewOpenAPIToMCPAdapter("MyService", "v1", "http://backend:8080", ":9090")
 if err != nil {
     log.Fatal(err)
 }
